@@ -1,0 +1,23 @@
+# chatrobot
+# program som modtager input og skriver tilbage til brugeren
+# start programmet ved enten at trykke på "run" eller F5.
+
+print("Hej, jeg er din private chatbot")
+print("Jeg spiser cornflakes til morgenmad og drikker kaffe hele dagen")
+print("----------") # 10 * -
+
+# Bed om brugerinfo
+print("Brugerinfo".upper()) # upper er en metode som laver alle bogstaverne til store bogstaver
+navn = input("Hvad er dit navn? ")
+print("Hej " + navn + ", hyggeligt at møde dig")
+
+# bed om årstal og udregn alder
+print("I hvilket årstal er du født? ")
+aarstal = int(input(">> ")) # årstallet skal være et tal( integer)
+print(navn + " er et flot navn og " + str(aarstal) + " er et godt årstal") # konverterer årstal til streng
+alder = 2023 - aarstal # variablen, alder, trækker variablen, aarstal, fra 2023.
+print("Hvis du er født i " + str(aarstal) + " så er du ca. " + str(alder) + " år")
+
+# afslutning
+print("-" * 10) # vi er dovne og beder den blot lave 10 * "-"
+print("Tak for denne gang, " + navn + " og kom snart igen!")
