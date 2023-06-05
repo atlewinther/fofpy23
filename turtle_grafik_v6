@@ -1,0 +1,27 @@
+# turtle_grafik_v6.py
+# program som laver turtlegrafik med variation i vinklen og 100 løkker og som bliver større for hver løkke
+# Winther, A. d. 2023. Python Workshop FOF
+
+# importer turtle-modulet. Denne gang importerer vi det hele vha *
+from turtle import *
+import turtle as t 
+
+# titel til programmet
+t.title("Python Workshop FOF")
+
+# baggrunden
+t.Screen().bgcolor("orange")
+# hastighed på skildpadden. 0 er den hurtigste værdi  
+t.speed(0)
+
+# udfyld farve på mønster
+t.begin_fill()
+t.color("cyan")
+# løkke på 330 omgange
+for i in range(330):
+    t.forward(i * 1.45) # fremad med 1 nyt skridt for hver omgang
+    left(77) # wow den laver en fed effekt
+
+t.end_fill()
+# færdig med program - du kan undlade denne    
+t.done()
