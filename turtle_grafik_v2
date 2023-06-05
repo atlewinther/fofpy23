@@ -1,0 +1,14 @@
+# turtle_grafik_v2.py
+# program som laver turtlegrafik
+# Winther, A. d. 2023. Python Workshop FOF
+
+# importer turtle-modulet
+import turtle
+
+# tildel variablen, t, turtle-modulets egenskaber
+t = turtle.Turtle()
+
+# lav et for loop, som 4 gange gentager fremad med 100, drej 90 grader
+for i in range(4):
+    t.forward(100)
+    t.left(90)
