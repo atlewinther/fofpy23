@@ -1,0 +1,15 @@
+# turtle_grafik_v4.py
+# program som laver turtlegrafik med variation i vinklen og 100 løkker og som bliver større for hver løkke
+# Winther, A. d. 2023. Python Workshop FOF
+
+# importer turtle-modulet
+import turtle
+
+# tildel variablen, t, turtle-modulets egenskaber
+t = turtle.Turtle()
+
+# lav et for loop, som 100 gange gentager fremad med 100, mens vi drejer 91 grader på omgang
+for i in range(100):
+    t.forward(i)
+    t.left(91)
+
