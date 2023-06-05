@@ -1,0 +1,13 @@
+# program som laver turtlegrafik
+# Winther, A. d. 2023. Python Workshop FOF
+
+import turtle
+
+turtle.forward(100) # går fremad med 100 skridt
+turtle.left(90) # drejer 90 grader til venstre
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
