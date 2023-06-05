@@ -1,0 +1,10 @@
+# liste_v1.py
+# liste som indeholder 5 strenge
+
+# lav listen
+liste = ["abe", "ged", "hest", "elefant", "fisk"]
+# print typen på liste
+print(type(liste))
+
+# print listen
+print(liste) 
