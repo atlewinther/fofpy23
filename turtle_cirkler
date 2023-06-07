@@ -1,0 +1,12 @@
+# turtle_grafik_v6.py
+# program som laver turtlegrafik med cirkler
+# Winther, A. d. 2023. Python Workshop FOF
+
+# importer turtle-modulet. Denne gang importerer vi det hele vha *
+import turtle
+t = turtle.Turtle()
+
+for i in range(6):
+    t.circle(100)
+    t.left(60)
+
