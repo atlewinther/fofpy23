@@ -1,0 +1,39 @@
+# liste_3.py
+# indkøbsliste som vi ændre
+
+# lav listen
+ingredienser = ["kylling", "mælk", "løg", "mel",  "ost", "paprika", "æg", "cornflakes", "salt"]
+# print typen på liste
+for ingrediens in ingredienser:
+    print(ingrediens)
+
+print() # luft
+print(ingredienser)
+
+print()
+# Indextal går fra 0 og op. I vores tilfælde er der 9 ingredienser, men husk at det starter fra 0 og dermed slutter det ved index 8
+print(ingredienser[0])
+print(ingredienser[8])
+# indextal 2 - 5
+print(ingredienser[2: 5])
+
+print()
+# ved at bruge append tildeler vi listen en ekstra ingrediens, peber
+ingredienser.append("peber")
+print(ingredienser)
+
+print()
+# lister kan både være tal og strenge
+ny_liste = ["a", 1, 29.98, "xyz"]
+print(ny_liste)
+
+print()
+# fjern fra listen
+# her fjerner vi ost som er nummer 4 på indexlisten
+del ingredienser[4]
+print(ingredienser)
+
+print()
+# sammensæt lister
+sammensat = ingredienser + ny_liste
+print(sammensat)
