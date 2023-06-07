@@ -3,14 +3,12 @@
 # Winther, A. d. 2023. Python Workshop FOF
 
 # importer turtle-modulet. Denne gang importerer vi det hele vha *
-from turtle import *
-import turtle as t 
-
-# titel til programmet
-t.title("Python Workshop FOF")
+import turtle
+t = turtle.Turtle()
 
 # baggrunden
-t.Screen().bgcolor("orange")
+turtle.bgcolor("orange")
+
 # hastighed på skildpadden. 0 er den hurtigste værdi  
 t.speed(0)
 
@@ -20,8 +18,7 @@ t.color("cyan")
 # løkke på 330 omgange
 for i in range(330):
     t.forward(i * 1.45) # fremad med 1 nyt skridt for hver omgang
-    left(77) # wow den laver en fed effekt
+    t.left(77) # wow den laver en fed effekt
 
 t.end_fill()
-# færdig med program - du kan undlade denne    
-t.done()
+
