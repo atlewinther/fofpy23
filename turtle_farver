@@ -1,0 +1,18 @@
+# turtlegrafik, som skifter farver
+
+# import af modulet turtle
+import turtle
+
+# variblen t
+t = turtle.Turtle()
+
+turtle.bgcolor("black")
+
+# liste med 4 farver
+farver = ["red", "yellow", "blue", "green"]
+
+# løkke som laver mønsteret
+for i in range(200):
+    t.pencolor(farver[i%4])
+    t.forward(i)
+    t.left(91)
