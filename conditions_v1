@@ -1,0 +1,17 @@
+# simpelt program som viser et if-statement
+# skrevet af Atle den 2023
+
+# bed bruger om at skrive et tall
+tal = int(input("Indtast tal: "))
+# kontroller om tallet er større end 10
+if tal > 10:
+    print("Tallet er større end 10")
+
+# kontroller om tallet er mindre end 10
+if tal < 10:
+    print("Tallet er mindre end 10")
+
+# kontroller om tallet er det samme som 10
+if tal == 10:
+    print("Tallet er det samme som 10")
+    
