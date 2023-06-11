@@ -1,0 +1,6 @@
+# program som fortæller at man skal have regntøj og paraply, hvis det regner
+
+det_regner = False
+
+if det_regner == True:
+    print("Husk paraply og gummistøvler!")
