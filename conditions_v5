@@ -1,0 +1,17 @@
+# et lille eksempel på elif 
+# w = op, s = ned, a = venstre, d = højre
+
+move = input("Hvor vil du gå hen? (w, s, a, d) ")
+
+if move == "w":
+    print("Du går op")
+elif move == "s":
+    print("Du går ned")
+elif move == "a":
+    print("Du går til venstre")
+elif move == "d":
+    print("Du går til højre")
+else:
+    print("Du står stille")
+
+    
