@@ -1,0 +1,11 @@
+# cirkusbiller, hvor vi har 3 forskellige aldre
+# eksempel på if, elif og else
+
+alder = int(input("Hvor gammel er du? "))
+if alder <= 15:
+    print("Barnebillet")
+elif alder >= 16 and alder <= 64:
+    print("Voksenbillet")
+elif alder >= 65:
+    print("Pensionistbillet")
+
