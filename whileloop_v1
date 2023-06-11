@@ -1,0 +1,7 @@
+# eksempel på en while-løkke
+
+tal = 0
+while tal < 10:
+    print(tal)
+    tal = tal + 1
+print("Færdig!")
