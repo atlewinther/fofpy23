@@ -1,0 +1,12 @@
+# eksempel på en while-løkke
+# whileloop_v3
+
+tal = 0
+while tal < 10:
+    print(tal)
+    tal = tal + 1
+    if tal == 6:
+        print("Jeg er " + str(tal))
+        continue
+    if tal == 8:
+        break
