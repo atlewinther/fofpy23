@@ -1,0 +1,13 @@
+# simpelt program som viser et if og et else statement
+# skrevet av Atle den 2023
+
+# laver en variabel som hedder tal og tildeler den verdien 10
+tal = 10
+
+# laver et if statement som kontrollerer om tallet er større end 10
+if tal > 10:
+    print("Tallet er større end 10")
+# laver et else statement som kører hvis if statementet ikke er sandt
+else:
+    print("Tallet er ikke større end 10")
+
