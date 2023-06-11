@@ -1,0 +1,12 @@
+# Test af om et tal er lige eller ulige
+# Winther, A 2023
+
+# spørg om et tal
+tal = int(input("Indtast tal: "))
+
+# tal % 2 betyder at hvis 2 går op i dette tal og returværdien er 0, så er tallet lige
+if tal % 2 == 0:
+    print("Tallet er lige")
+else:
+    print("Tallet er ulige")
+
