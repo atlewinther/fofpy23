@@ -1,0 +1,22 @@
+# fizzbuzz.py
+# Winther, A. 2023
+
+
+def fizzbuzz(n):
+    """
+    Skriver tallene fra 1 til n, men ved tal som er delelige med 3 udskrives "Fizz",
+    og ved 5, udskrives "Buzz", og for tal som både er delelige med 3 og 5,
+    udskrives "FizzBuzz".
+    """
+    for i in range(1, n + 1):
+        if i % 3 == 0:
+            if i % 5 == 0:
+                print("FizzBuzz")
+            else:
+                print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
+
+fizzbuzz(100)
