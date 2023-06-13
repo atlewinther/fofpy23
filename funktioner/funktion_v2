@@ -1,0 +1,10 @@
+# funktion_v2
+# denne funktion siger et navn 3 gange
+
+def ditnavn(navn):
+    print("Hej " + navn)
+    print("Hello " + navn)
+    print("Bonjour " + navn)
+
+
+ditnavn("Atle")
