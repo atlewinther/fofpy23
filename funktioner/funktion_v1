@@ -1,0 +1,9 @@
+# funktion_v1
+# denne funktion multiplicere et tal med 5, 9 og 24
+
+def skrivtal(tal):
+    print(tal * 5)
+    print(tal * 9)
+    print(tal * 24)
+
+skrivtal(9)
