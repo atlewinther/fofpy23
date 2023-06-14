@@ -1,0 +1,15 @@
+# gæt et nummer - simpel udgave
+# Winter, A. 2023
+
+hemmeligt_tal = 3829
+
+gaet = int(input("Gæt det hemmelige tal: "))
+
+if gaet == hemmeligt_tal:
+    print("Du gættede rigtigt!")
+else:
+    if gaet > hemmeligt_tal:
+        print("Du gættede for højt!")
+    else:
+        print("Dit gæt var for lavt")
+print("Tak for spillet!")
